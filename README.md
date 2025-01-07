@@ -1,42 +1,7 @@
-# ✨ Full Stack Realtime Chat App ✨
+# ✨ Real-Time Chat App for Event Coordination ✨
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+Description: A chat application for seamless communication between clients and event coordinators.
+Frontend: React with animations for messages appearing in real time.
+Backend: Node.js with WebSocket for real-time communication. Include user authentication and message history.
 
-[Video Tutorial on Youtube](https://youtu.be/ntKkVrQqBYY)
 
-Highlights:
-
-- 🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
-- 🎃 Authentication && Authorization with JWT
-- 👾 Real-time messaging with Socket.io
-- 🚀 Online user status
-- 👌 Global state management with Zustand
-- 🐞 Error handling both on the server and on the client
-- ⭐ At the end Deployment like a pro for FREE!
-- ⏳ And much more!
-
-### Setup .env file
-
-```js
-MONGODB_URI=...
-PORT=5001
-JWT_SECRET=...
-
-CLOUDINARY_CLOUD_NAME=...
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
-
-NODE_ENV=development
-```
-
-### Build the app
-
-```shell
-npm run build
-```
-
-### Start the app
-
-```shell
-npm start
-```
